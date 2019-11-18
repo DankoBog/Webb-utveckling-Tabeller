@@ -1,0 +1,27 @@
+table{
+    width:100%;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 14px;
+    text-align: left;
+}
+tbody tr:nth-child(even){
+    background-color: #C87A81;
+}
+tbody tr:nth-child(odd){
+    background-color: #9E8D8E;
+}
+caption{
+    caption-side:bottom;
+    font-size:20px;
+}
+.textC{
+    text-align:center;
+}
+.textR{
+    text-align:right;
+}
